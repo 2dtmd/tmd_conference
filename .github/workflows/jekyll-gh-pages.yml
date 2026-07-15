@@ -1,10 +1,12 @@
-# Build and deploy the Jekyll site to GitHub Pages
+# Build and deploy the production and demo Jekyll sites to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
-  # Run when changes are pushed to the Demo branch
+  # Rebuild the complete Pages site when either branch changes
   push:
-    branches: ["Demo"]
+    branches:
+      - Demo
+      - Prod
 
   # Allow manual runs from the Actions tab
   workflow_dispatch:
@@ -25,30 +27,60 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      # Check out the production branch
+      - name: Checkout production branch
         uses: actions/checkout@v4
+        with:
+          ref: Prod
+          path: Prod-source
+
+      # Check out the demo branch into a separate directory
+      - name: Checkout demo branch
+        uses: actions/checkout@v4
+        with:
+          ref: Demo
+          path: Demo-source
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: "3.1"
-          bundler-cache: true
-          cache-version: 0
-          working-directory: ./tmd_conference
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll
-        working-directory: ./tmd_conference
-        run: >
-          bundle exec jekyll build
-          --baseurl "${{ steps.pages.outputs.base_path }}"
-          --destination ../_site
+      # Production website:
+      # https://2dtmd.github.io/tmd_conference/
+      - name: Install production dependencies
+        working-directory: ./Prod-source/tmd_conference
+        run: bundle install
+
+      - name: Build production site
+        working-directory: ./Prod-source/tmd_conference
+        run: |
+          bundle exec jekyll build \
+            --baseurl "/tmd_conference" \
+            --destination "../../_site"
         env:
           JEKYLL_ENV: production
 
+      # Demo website:
+      # https://2dtmd.github.io/tmd_conference/dcuenvoieuriewud2dhfhf/
+      - name: Install demo dependencies
+        working-directory: ./Demo-source/tmd_conference
+        run: bundle install
+
+      - name: Build demo site
+        working-directory: ./Demo-source/tmd_conference
+        run: |
+          bundle exec jekyll build \
+            --baseurl "/tmd_conference/dcuenvoieuriewud2dhfhf" \
+            --destination "../../_site/dcuenvoieuriewud2dhfhf"
+        env:
+          JEKYLL_ENV: production
+
+      # Upload both sites together as one GitHub Pages artifact
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
