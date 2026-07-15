@@ -4,7 +4,7 @@ title: Abstract Submission
 permalink: /abstract_submission/
 ---
 
-To be Confirmed.
+To be Confirmed
 
 {% comment %}
 
