@@ -5,9 +5,6 @@ alt_title: Confirmed Invited Speakers
 permalink: /speakers/
 ---
 
-To be Confirmed.
-
-{% comment %}
 
 <div class="entries-grid">
 {% for pair in site.data.2D_Conference %}
@@ -20,5 +17,3 @@ To be Confirmed.
 
 {% endfor %}
 </div>
-
-{% endcomment %}
