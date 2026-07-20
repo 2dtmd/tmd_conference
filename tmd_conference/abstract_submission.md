@@ -4,7 +4,9 @@ title: Abstract Submission
 permalink: /abstract_submission/
 ---
 
-To be Confirmed
+To be Confirmed.
+
+{% comment %}
 
 ## Abstract Submission Form
 
@@ -55,3 +57,5 @@ Candidates having a profile in Web Of Talents benefit from maximum visibility am
 
 <!--<center><iframe width="1000px" height="7000px" src="https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?embedded=true" frameborder="100" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:370vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen id="abstract-submission-MS-form"> </iframe></center>-->
 
+
+{% endcomment %}
