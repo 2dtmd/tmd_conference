@@ -6,7 +6,7 @@ permalink: /speakers/
 ---
 To be Confirmed.
 
-{% cemment %}
+{% comment %}
 
 <div class="entries-grid">
 {% for pair in site.data.2D_Conference %}
