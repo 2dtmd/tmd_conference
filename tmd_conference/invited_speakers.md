@@ -4,7 +4,6 @@ title: Invited Speakers
 alt_title: Confirmed Invited Speakers
 permalink: /speakers/
 ---
-
 To be Confirmed.
 
 {% comment %}
