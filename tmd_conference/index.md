@@ -75,10 +75,6 @@ To be Confirmed.
 
 ## Co-organizers
 
-To be Confirmed.
-
-{% comment %}
-
 <div class="speaker-box">
 {% for pair in site.data.co-organizers %}
 
@@ -90,9 +86,6 @@ To be Confirmed.
 {% endfor %}
 </div>
 
-To be Confirmed.
-
-{% endcomment %}
 
 ## Sponsors
 
