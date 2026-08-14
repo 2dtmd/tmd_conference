@@ -57,8 +57,9 @@ Topics will include but are not limited to:
 
 
 
+
 <div class="speaker-box">
-{% for pair in site.data.organisers %}
+{% for pair in site.data.organizers %}
 
 	<article class="portrait">
 		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
