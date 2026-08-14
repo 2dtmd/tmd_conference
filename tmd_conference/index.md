@@ -38,7 +38,7 @@ Topics will include but are not limited to:
 ##  Plenary Speakers 
 
 
-<div class="grid-list">
+<div class="entries-grid">
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
