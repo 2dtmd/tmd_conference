@@ -38,6 +38,9 @@ Topics will include but are not limited to:
 ## Confirmed Plenary Speakers 
 
 
+To be Confirmed.
+
+{% comment %}
 
 <div class="entries-grid">
 {% for pair in site.data.plenaries %}
@@ -50,7 +53,7 @@ Topics will include but are not limited to:
 {% endfor %}
 </div>
 
-
+{% endcomment %}
 
 ## Organizers
 
