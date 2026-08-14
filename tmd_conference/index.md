@@ -35,7 +35,7 @@ Topics will include but are not limited to:
 </div>
 
 
-## Confirmed Plenary Speakers 
+##  Plenary Speakers 
 
 
 
