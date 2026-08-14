@@ -39,7 +39,7 @@ Topics will include but are not limited to:
 
 
 <div class="grid-list">
-{% for pair in site.data.organizers %}
+{% for pair in site.data.plenaries %}
 
 	<article class="portrait">
 		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
