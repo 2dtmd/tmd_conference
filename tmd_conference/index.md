@@ -35,11 +35,11 @@ Topics will include but are not limited to:
 </div>
 
 
-## Confirmed Plenary Speakers 
+##  Plenary Speakers 
 
 
 
-<div class="entries-grid">
+<div class="speaker-box">
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
