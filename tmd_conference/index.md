@@ -41,12 +41,15 @@ Topics will include but are not limited to:
 
 <div class="grid-list">
 {% for pair in site.data.plenaries %}
-
-	<article class="portrait">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
-        <b>{{ pair["Name"] }}</b>
-        <em>{{ pair["Institute"] }}</em>
-	</article>
+  <article class="portrait-card">
+    <div class="image-container">
+      <img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" alt="{{ pair['Name'] }}" class="portrait-img">
+    </div>
+    <div class="portrait-info">
+      <b>{{ pair["Name"] }}</b>
+      <em>{{ pair["Institute"] }}</em>
+    </div>
+  </article>
 {% endfor %}
 </div>
 
