@@ -39,7 +39,7 @@ Topics will include but are not limited to:
 
 
 
-<div class="speaker-box">
+<div class="grid-list">
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
