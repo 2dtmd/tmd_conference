@@ -7,8 +7,7 @@ title: 2D Transition Metal Dichalcogenides 2027
 sub_title: June 27 - July 1, 2027 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
 introduction: |
-  Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), Cambridge (2025) and Singapore (2026), the conference will return to Cambridge in 2027. 
-2D TMDs 2027 will bring together leading researchers from academia and industry to present and discuss recent advances in atomically thin TMDs. The programme will span fundamental materials synthesis and physics through to device fabrication, integration and emerging applications in electronics, photonics, spintronics, catalysis, and energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
+  Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), Cambridge (2025) and Singapore (2026), the conference will return to Cambridge in 2027. 2D TMDs 2027 will bring together leading researchers from academia and industry to present and discuss recent advances in atomically thin TMDs. The programme will span fundamental materials synthesis and physics through to device fabrication, integration and emerging applications in electronics, photonics, spintronics, catalysis, and energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
 ---
 
 ## Topics
