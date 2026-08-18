@@ -17,7 +17,7 @@ Topics will include but are not limited to:
 <div class="topics-grid">
 	<div>
 	  <ul>
-		{% for topic in site.data.topics limit:4 %}
+		{% for topic in site.data.topics limit:8 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
@@ -26,7 +26,7 @@ Topics will include but are not limited to:
 	</div>
 	<div>
 	<ul>
-		{% for topic in site.data.topics offset:4 %}
+		{% for topic in site.data.topics offset:8 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
