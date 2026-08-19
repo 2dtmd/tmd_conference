@@ -7,8 +7,9 @@ title: 2D Transition Metal Dichalcogenides 2027
 sub_title: June 27 - July 1, 2027 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
 introduction: |
-  Following successful 2D TMDs conferences in Cambridge and Hong Kong, we will be holding the 2D TMDs 2027 conference in Cambridge again. The conference will again gather leading researchers from academia and industry to present and discuss cutting-edge research in the field of atomically thin TMDs and related materials. The conference will cover latest developments in synthesis of 2D TMDs and their implementation in electronics, photonics, catalysis, as well as energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
+  Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), Cambridge (2025) and Singapore (2026), the conference will return to Cambridge in 2027.| 2D TMDs 2027 will bring together leading researchers from academia and industry to present and discuss recent advances in atomically thin TMDs. The programme will span fundamental materials synthesis and physics through to device fabrication, integration and emerging applications in electronics, photonics, spintronics, catalysis, and energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
 ---
+
 ## Topics
 
 Topics will include but are not limited to:
@@ -16,7 +17,7 @@ Topics will include but are not limited to:
 <div class="topics-grid">
 	<div>
 	  <ul>
-		{% for topic in site.data.topics limit:4 %}
+		{% for topic in site.data.topics limit:8 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
@@ -25,7 +26,7 @@ Topics will include but are not limited to:
 	</div>
 	<div>
 	<ul>
-		{% for topic in site.data.topics offset:4 %}
+		{% for topic in site.data.topics offset:8 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
@@ -35,18 +36,17 @@ Topics will include but are not limited to:
 </div>
 
 
-##  Plenary Speakers 
+## Plenary Speakers
 
-
+{% assign sorted_plenaries = site.data.plenaries | sort: "Name" %}
 
 <div class="entries-grid">
-{% for pair in site.data.plenaries %}
-
-	<article class="portrait">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
-        <b>{{ pair["Name"] }}</b>
-        <em>{{ pair["Institute"] }}</em>
-	</article>
+{% for pair in sorted_plenaries %}
+  <article class="portrait">
+    <img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] | strip }}.jpg" class="portrait">
+    <b>{{ pair["Name"] | strip }}</b>
+    <em>{{ pair["Institute"] | strip }}</em>
+  </article>
 {% endfor %}
 </div>
 
