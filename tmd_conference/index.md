@@ -11,30 +11,28 @@ Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), 
 
 **Abstracts from students and postdoctoral researchers are very welcome.**
 
+
 ## Topics
 
 Topics will include but are not limited to:
 
-{% comment %} Calculate the halfway point automatically {% endcomment %}
 {% assign total_topics = site.data.topics | size %}
 {% assign half_point = total_topics | divided_by: 2.0 | ceil %}
 
 <div class="topics-grid">
-  <div>
-    <ul>
-      {% for topic in site.data.topics limit: half_point %}
-        <li>{{ topic['name'] }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div>
-    <ul>
-      {% for topic in site.data.topics offset: half_point %}
-        <li>{{ topic['name'] }}</li>
-      {% endfor %}
-    </ul>
-  </div>
+  <ul class="topic-column">
+    {% for topic in site.data.topics limit: half_point %}
+      <li>{{ topic['name'] }}</li>
+    {% endfor %}
+  </ul>
+  <ul class="topic-column">
+    {% for topic in site.data.topics offset: half_point %}
+      <li>{{ topic['name'] }}</li>
+    {% endfor %}
+  </ul>
 </div>
+
+
 ## Plenary Speakers
 
 {% comment %} Step 1: Extract surnames and construct a sortable array {% endcomment %}
