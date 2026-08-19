@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
----
+
 layout: home
 title: 2D Transition Metal Dichalcogenides 2027
 sub_title: June 27 - July 1, 2027 | Churchill College, Cambridge, UK
