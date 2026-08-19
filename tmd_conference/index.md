@@ -36,18 +36,17 @@ Topics will include but are not limited to:
 </div>
 
 
-##  Plenary Speakers 
+## Plenary Speakers
 
-
+{% assign sorted_plenaries = site.data.plenaries | sort: "Name" %}
 
 <div class="entries-grid">
-{% for pair in site.data.plenaries %}
-
-	<article class="portrait">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
-        <b>{{ pair["Name"] }}</b>
-        <em>{{ pair["Institute"] }}</em>
-	</article>
+{% for pair in sorted_plenaries %}
+  <article class="portrait">
+    <img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] | strip }}.jpg" class="portrait">
+    <b>{{ pair["Name"] | strip }}</b>
+    <em>{{ pair["Institute"] | strip }}</em>
+  </article>
 {% endfor %}
 </div>
 
