@@ -36,7 +36,7 @@ Topics will include but are not limited to:
 </div>
 
 
-## Plenary Speakers
+## Confirmed Plenary Speakers
 
 {% assign sorted_plenaries = site.data.plenaries | sort: "Name" %}
 
