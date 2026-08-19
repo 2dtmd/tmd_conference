@@ -14,34 +14,48 @@ introduction: |
 
 Topics will include but are not limited to:
 
+{% comment %} Calculate the halfway point automatically {% endcomment %}
+{% assign total_topics = site.data.topics | size %}
+{% assign half_point = total_topics | divided_by: 2.0 | ceil %}
+
 <div class="topics-grid">
-	<div>
-	  <ul>
-		{% for topic in site.data.topics limit:8 %}
-		<li>
-			{{ topic['name'] }}
-		</li>
-		{% endfor %}
-  	  </ul>
-	</div>
-	<div>
-	<ul>
-		{% for topic in site.data.topics offset:8 %}
-		<li>
-			{{ topic['name'] }}
-		</li>
-		{% endfor %}
-	</ul>
-	</div>
+  <div>
+    <ul>
+      {% for topic in site.data.topics limit: half_point %}
+        <li>{{ topic['name'] }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <ul>
+      {% for topic in site.data.topics offset: half_point %}
+        <li>{{ topic['name'] }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
+## Plenary Speakers
 
+{% comment %} Step 1: Extract surnames and construct a sortable array {% endcomment %}
+{% assign sorted_plenaries = "" | split: "" %}
 
-## Confirmed Plenary Speakers
+{% for pair in site.data.plenaries %}
+  {% assign name_parts = pair["Name"] | strip | split: " " %}
+  {% assign surname = name_parts | last %}
+  {% comment %} Combine surname and original index to preserve data association {% endcomment %}
+  {% assign sort_key = surname | append: "___" | append: forloop.index0 %}
+  {% assign sorted_plenaries = sorted_plenaries | push: sort_key %}
+{% endfor %}
 
-{% assign sorted_plenaries = site.data.plenaries | sort: "Name" %}
+{% comment %} Step 2: Sort by the keys (surnames) {% endcomment %}
+{% assign sorted_keys = sorted_plenaries | sort %}
 
 <div class="entries-grid">
-{% for pair in sorted_plenaries %}
+{% for key in sorted_keys %}
+  {% comment %} Step 3: Retrieve original data item using the index {% endcomment %}
+  {% assign index = key | split: "___" | last | plus: 0 %}
+  {% assign pair = site.data.plenaries[index] %}
+
   <article class="portrait">
     <img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] | strip }}.jpg" class="portrait">
     <b>{{ pair["Name"] | strip }}</b>
@@ -49,7 +63,6 @@ Topics will include but are not limited to:
   </article>
 {% endfor %}
 </div>
-
 
 
 ## Organizers
