@@ -54,12 +54,7 @@ Topics will include but are not limited to:
 {% endfor %}
 </div>
 
-
 ## Organizers
-
-
-
-
 
 <div class="speaker-box">
 {% for pair in site.data.organizers %}
@@ -71,7 +66,6 @@ Topics will include but are not limited to:
 	</article>
 {% endfor %}
 </div>
-
 
 
 ## Co-organizers
