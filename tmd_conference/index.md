@@ -16,10 +16,10 @@ Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), 
 
 Topics will include but are not limited to:
 
-<div class="topics-wrapper">
-  <ul class="topics-grid">
+<div style="display: flex; justify-content: center; width: 100%; margin: 1.5rem 0;">
+  <ul style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem 2.5rem; max-width: 900px; width: 100%; padding-left: 1.25rem; margin: 0; list-style-type: disc;">
     {% for topic in site.data.topics %}
-      <li>{{ topic['name'] }}</li>
+      <li style="margin: 0; line-height: 1.4;">{{ topic['name'] }}</li>
     {% endfor %}
   </ul>
 </div>
