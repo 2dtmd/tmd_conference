@@ -26,16 +26,12 @@ Topics will include but are not limited to:
 
 ## Plenary Speakers
 
-<div class="speaker-box">
-{% for pair in site.data.plenaries %}
+{% comment %} Step 1: Extract surnames and construct a sortable array {% endcomment %} {% assign sorted_plenaries = "" | split: "" %}
 
-	<article class="portrait">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
-        <b>{{ pair["Name"] }}</b>
-        <em>{{ pair["Institute"] }}</em>
-	</article>
-{% endfor %}
-</div>
+{% for pair in site.data.plenaries %} {% assign name_parts = pair["Name"] | strip | split: " " %} {% assign surname = name_parts | last %} {% comment %} Combine surname and original index to preserve data association {% endcomment %} {% assign sort_key = surname | append: "___" | append: forloop.index0 %} {% assign sorted_plenaries = sorted_plenaries | push: sort_key %} {% endfor %}
+
+{% comment %} Step 2: Sort by the keys (surnames) {% endcomment %} {% assign sorted_keys = sorted_plenaries | sort %}
+{% for key in sorted_keys %} {% comment %} Step 3: Retrieve original data item using the index {% endcomment %} {% assign index = key | split: "___" | last | plus: 0 %} {% assign pair = site.data.plenaries[index] %} {{ pair["Name"] | strip }} {{ pair["Institute"] | strip }} {% endfor %} 
 
 
 ## Organizers
