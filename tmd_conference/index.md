@@ -30,7 +30,7 @@ Topics will include but are not limited to:
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
-		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
+		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
         <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
