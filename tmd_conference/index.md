@@ -16,12 +16,13 @@ Following successful 2D TMDs conferences in Cambridge (2023), Hong Kong (2024), 
 
 Topics will include but are not limited to:
 
-<ul class="topics-grid">
-  {% for topic in site.data.topics %}
-    <li>{{ topic['name'] }}</li>
-  {% endfor %}
-</ul>
-
+<div class="topics-wrapper">
+  <ul class="topics-grid">
+    {% for topic in site.data.topics %}
+      <li>{{ topic['name'] }}</li>
+    {% endfor %}
+  </ul>
+</div>
 
 ## Plenary Speakers
 
