@@ -54,6 +54,7 @@ Topics will include but are not limited to:
 {% endfor %}
 </div>
 
+## Invited Speakers
 
 <div class="entries-grid">
 {% for pair in site.data.2D_Conference %}
