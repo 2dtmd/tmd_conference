@@ -20,7 +20,7 @@ Due to limited capacity, we kindly ask that only participants with an invited ta
 
 
 {% endcomment %}
-Please register for the conference through [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
+Please register for the conference through [this link](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds/2d-tmds-27-june-01-july-2027). 
 ### Please note that no refunds will be issued for cancellations after the 6th of June.
 
 
