@@ -3,18 +3,23 @@ layout: page
 title: Abstract Submission
 permalink: /abstract_submission/
 ---
-
+{% comment %}
 To be Confirmed.
-
+{% endcomment %}
 {% comment %}
 
 ## Abstract Submission Form
-
+{% comment %}
 Abstract submission for posters are now closed. 
 
 For invited speakers, please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
+{% endcomment %}
+
+Please submit your abstracts to this link.
 
 If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
+
+Abstract submission is open until the 15th of February 2027.
 
 ---
 
@@ -58,4 +63,4 @@ Candidates having a profile in Web Of Talents benefit from maximum visibility am
 <!--<center><iframe width="1000px" height="7000px" src="https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?embedded=true" frameborder="100" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:370vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen id="abstract-submission-MS-form"> </iframe></center>-->
 
 
-{% endcomment %}
+
