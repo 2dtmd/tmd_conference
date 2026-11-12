@@ -16,7 +16,7 @@ For invited speakers, please submit your abstracts to [this link](https://docs.g
 
 Please submit your abstracts to this [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link).
 
-If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
+If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2027@msm.cam.ac.uk](mailto://2dtmds2027@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
 
 Abstract submission is open until the 15th of February 2027.
 
