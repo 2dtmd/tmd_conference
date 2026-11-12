@@ -44,17 +44,17 @@ Conference Fees
 
 ### Registration will cover:
 
--   Sunday, July 20th: Welcome reception dinner in Churchill College with food and drinks
+-   Sunday, June 27th: Welcome reception dinner in Churchill College with food and drinks
  
--   Monday, July 21st -- Thursday, July 24th: Coffee/tea with pastries in the mornings and afternoons
+-   Monday, June 28th -- Thursday, July 1st: Coffee/tea with pastries in the mornings and afternoons
  
--   Monday, July 21st: Sit down lunch in Churchill College, Gala dinner for all attendees in King's College
+-   Monday, June 28th: Sit down lunch in Churchill College, Gala dinner for all attendees in St John's College
  
--   Tuesday, July 22nd: Sit down lunch in Churchill College, BBQ dinner for all attendees in Churchill College
+-   Tuesday, June 29th: Sit down lunch in Churchill College, BBQ dinner for all attendees in Churchill College
  
--   Wednesday, July 23rd: Sit down lunch in Churchill College, Sit down dinner in Churchill College 
+-   Wednesday, June 30th: Sit down lunch in Churchill College, Sit down dinner in Churchill College 
 
--   Thursday, July 24th: Sit down lunch in Churchill College
+-   Thursday, July 1st: Sit down lunch in Churchill College
  
 **In case of any problems with online payment, on-site payment will be available. Please email Ana at the conference address to let her know you plan to do On Site Registration.**
 
