@@ -27,20 +27,20 @@ Due to limited capacity, we kindly ask that only participants with an invited ta
 Conference Fees
 ---------------
 
-### Early Bird Registration (Before February 28, 2025)
+### Early Bird Registration (Before February 28, 2027)
 
 
 | Position            | Fee                             |
 |---------------------|---------------------------------|
-| Academics & PDRAs   | £525.00 |
-| Students            | £325.00 |
+| Academics & PDRAs   | £600.00 |
+| Students            | £375.00 |
 
-### Late Registration (After February 28, 2025)
+### Late Registration (After February 28, 2027)
 
   |Position           | Fee                             |
   |-------------------| --------------------------------|
-  |Academics & PDRAs  | £575.00 |
-  |Students           | £375.00 |
+  |Academics & PDRAs  | £675.00 |
+  |Students           | £425.00 |
 
 ### Registration will cover:
 
