@@ -5,11 +5,10 @@ permalink: /abstract_submission/
 ---
 {% comment %}
 To be Confirmed.
-{% endcomment %}
-{% comment %}
+
 
 ## Abstract Submission Form
-{% comment %}
+
 Abstract submission for posters are now closed. 
 
 For invited speakers, please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
