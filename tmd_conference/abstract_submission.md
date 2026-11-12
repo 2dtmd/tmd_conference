@@ -39,7 +39,7 @@ Posters should highlight and summarise the main findings of your research.
 
 ## Poster Award
 
-[Web Of Talents](https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2025 conference.
+[Web Of Talents](https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2027 conference.
  
 #### Prize:
 The first winner will receive 1,000 USD plus one commemorative plaque.
