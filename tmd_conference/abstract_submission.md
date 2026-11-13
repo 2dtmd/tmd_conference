@@ -3,18 +3,22 @@ layout: page
 title: Abstract Submission
 permalink: /abstract_submission/
 ---
-
+{% comment %}
 To be Confirmed.
 
-{% comment %}
 
 ## Abstract Submission Form
 
 Abstract submission for posters are now closed. 
 
 For invited speakers, please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
+{% endcomment %}
 
-If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
+Please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSdTPLHpVnJ6rmAJqHJkd92hADCa_5QJrsHU5ED_MyRC8_W0vw/viewform?usp=publish-editor).
+
+If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2027@msm.cam.ac.uk](mailto://2dtmds2027@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
+
+Abstract submission is open until the 15th of February 2027.
 
 ---
 
@@ -30,12 +34,12 @@ Posters should highlight and summarise the main findings of your research.
 * Presenters must remove their posters after the poster session. We assume no responsibility for posters that have been left behind.  
  
 **All presenters must print and bring their posters with them. There will be no poster printing facilities available on site.**
-
+{% comment %}
 ---
 
 ## Poster Award
 
-[Web Of Talents](https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2025 conference.
+[Web Of Talents](https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2027 conference.
  
 #### Prize:
 The first winner will receive 1,000 USD plus one commemorative plaque.
@@ -56,6 +60,6 @@ Registering in [Web Of Talents](https://weboftalents.com) is free. It has three 
 Candidates having a profile in Web Of Talents benefit from maximum visibility among their research community. Top candidates stand out very easily thanks to our unique filtering, ranking and video features. Professors and team leaders can benefit from access to a long list of top candidates looking for a position, and detect who are the best with a couple of clicks. The platform is available in Desktop and Laptops (still not in smartphones). For technical issues related to the platform please send an email to info@weboftalents.com. Web Of Talents has been created by scientists to help other scientists. Register today and start to enjoy its benefits for free!
 
 <!--<center><iframe width="1000px" height="7000px" src="https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?embedded=true" frameborder="100" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:370vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen id="abstract-submission-MS-form"> </iframe></center>-->
-
-
 {% endcomment %}
+
+
