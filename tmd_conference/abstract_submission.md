@@ -34,9 +34,9 @@ Posters should highlight and summarise the main findings of your research.
 * Presenters must remove their posters after the poster session. We assume no responsibility for posters that have been left behind.  
  
 **All presenters must print and bring their posters with them. There will be no poster printing facilities available on site.**
-
----
 {% comment %}
+---
+
 ## Poster Award
 
 [Web Of Talents](https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2027 conference.
